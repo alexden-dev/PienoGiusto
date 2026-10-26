@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pieno Giusto - Risparmia sul Carburante e Calcola i Consumi Reali</title>
+    <meta name="description" content="Pieno Giusto è l'app Android gratuita che trova il distributore di carburante più conveniente vicino a te considerando anche il costo del tragitto. Nessun account, nessuna pubblicità.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/app_icon.png">
+</head>
+<body>
+
+    <!-- Header / Nav -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="brand">
+                <img src="assets/app_icon.png" alt="Pieno Giusto Logo" class="brand-icon">
+                <span class="brand-name">Pieno Giusto</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#features">Caratteristiche</a>
+                <a href="#how-it-works">Come Funziona</a>
+                <a href="#installation">Installazione</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <a href="PienoGiusto.apk" class="btn btn-primary nav-cta" download>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Scarica APK
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="badge-dot"></span>
+                    100% Gratuita • Open Data MIMIT • Zero Tracciamento
+                </div>
+                <h1>Trova il carburante più conveniente e calcola il <span class="gradient-text">consumo reale</span></h1>
+                <p class="hero-description">
+                    Pieno Giusto confronta i prezzi dei distributori in tempo reale e calcola la <strong>convenienza effettiva</strong> tenendo conto della strada che devi percorrere. Registra i tuoi rifornimenti con il metodo pieno-a-pieno e monitora i km/l reali della tua auto.
+                </p>
+                <div class="hero-actions">
+                    <a href="PienoGiusto.apk" class="btn btn-primary btn-large" download>
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Scarica Pieno Giusto (APK)
+                    </a>
+                    <a href="#installation" class="btn btn-secondary btn-large">
+                        Guida all'installazione
+                    </a>
+                </div>
+                <div class="hero-specs">
+                    <div class="spec-item">
+                        <span class="spec-value">0,00 €</span>
+                        <span class="spec-label">Senza pubblicità o abbonamenti</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-value">6 Paesi</span>
+                        <span class="spec-label">Italia, Austria, Francia, Germania, Spagna, Portogallo</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-value">100% Offline</span>
+                        <span class="spec-label">Dati salvati solo sul tuo telefono</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <div class="app-preview-card">
+                            <div class="card-header">
+                                <img src="assets/app_icon.png" alt="App Logo" class="preview-logo">
+                                <div>
+                                    <h3>Distributore Più Conveniente</h3>
+                                    <span class="tag-best">Risparmio Reale: +2,40 €</span>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="price-box">
+                                    <span class="price-amount">1,729 €/L</span>
+                                    <span class="fuel-type">Benzina Self</span>
+                                </div>
+                                <div class="dist-info">
+                                    <div class="info-row">
+                                        <span>Distanza reale (OSRM):</span>
+                                        <strong>3.2 km</strong>
+                                    </div>
+                                    <div class="info-row">
+                                        <span>Costo tragitto A/R:</span>
+                                        <strong class="text-subtle">-0.45 €</strong>
+                                    </div>
+                                    <div class="info-row highlight">
+                                        <span>Convenienza netta:</span>
+                                        <strong class="text-success">+1.95 € sul pieno</strong>
+                                    </div>
+                                </div>
+                                <div class="preview-btn">Naviga con Google Maps / Waze</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Perché scegliere <span class="gradient-text">Pieno Giusto</span>?</h2>
+                <p>Tutto quello che ti serve per risparmiare ad ogni rifornimento, senza complicazioni e nel totale rispetto della tua privacy.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon bg-blue">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    </div>
+                    <h3>Risparmio Reale, Non Teorico</h3>
+                    <p>Non andare in perdita per risparmiare 1 centesimo! L'algoritmo calcola la convenienza netta detraendo il costo del carburante speso per raggiungere la stazione di servizio su strada (OSRM).</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon bg-green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+                    </div>
+                    <h3>Consumo Reale Pieno-a-Pieno</h3>
+                    <p>Traccia i consumi effettivi della tua auto (km/l e l/100km). Registra semplicemente l'odometro e i litri immessi: l'app calcola la media esatta tra due pieni consecutivi.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon bg-amber">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                    </div>
+                    <h3>Open Data MIMIT & Europa</h3>
+                    <p>Prezzi ufficiali aggiornati quotidianamente dall'Osservaprezzi del Ministero delle Imprese e del Made in Italy, con copertura estesa ai distributori di confine in Austria, Francia, Germania, Spagna e Portogallo.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon bg-purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                    </div>
+                    <h3>Navigazione ad un Tocco</h3>
+                    <p>Trovato il distributore migliore? Premi "Naviga" per aprire direttamente la tua app di navigazione preferita (Google Maps, Waze, Apple Maps o qualsiasi altra app installata).</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon bg-red">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </div>
+                    <h3>Privacy al 100% (Zero Cloud)</h3>
+                    <p>Nessun account, nessuna registrazione e zero server remoti che collezionano i tuoi dati. La cronologia dei tuoi rifornimenti e le tue impostazioni restano salvate solo sul tuo dispositivo.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon bg-cyan">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                    </div>
+                    <h3>Personalizzazione Completa</h3>
+                    <p>Imposta la capacità del serbatoio, i litri desiderati per il pieno, il raggio di ricerca (es. 20 km), il tipo di carburante (Benzina, Diesel, GPL, Metano) e la modalità Self/Servito.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section id="how-it-works" class="how-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Come funziona il calcolo della convenienza</h2>
+                <p>Pieno Giusto non si limita a mostrarti il prezzo più basso: analizza l'efficienza economica reale.</p>
+            </div>
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h4>Punto di Riferimento</h4>
+                    <p>L'app individua la stazione di servizio più vicina a te su strada come linea di base.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h4>Calcolo del Tragitto</h4>
+                    <p>Calcola i km di andata e ritorno necessari per raggiungere ogni altro distributore nella tua zona.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h4>Costo Carburante Viaggio</h4>
+                    <p>Moltiplica la distanza extra per il consumo medio della tua auto e il prezzo del carburante.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h4>Risparmio Netto</h4>
+                    <p>Sottrae il costo del viaggio dal risparmio sul totale litri: ti mostra solo dove conviene davvero andare!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Guide Section -->
+    <section id="installation" class="installation-section">
+        <div class="container">
+            <div class="install-box">
+                <div class="install-header">
+                    <h2>Guida all'installazione dell'APK</h2>
+                    <p>Poiché Pieno Giusto è un'applicazione indipendente e gratuita non presente nel Play Store, l'installazione avviene direttamente tramite il file APK.</p>
+                </div>
+                <div class="install-steps">
+                    <div class="install-step">
+                        <div class="install-icon">1</div>
+                        <div class="install-text">
+                            <h3>Scarica il file APK</h3>
+                            <p>Premi il pulsante <strong>"Scarica APK"</strong> in cima a questa pagina per scaricare il file <code>PienoGiusto.apk</code> sul tuo smartphone Android.</p>
+                        </div>
+                    </div>
+                    <div class="install-step">
+                        <div class="install-icon">2</div>
+                        <div class="install-text">
+                            <h3>Apri il file scaricato</h3>
+                            <p>Tocca la notifica di download completato o apri la cartella <strong>Download</strong> del tuo telefono e seleziona <code>PienoGiusto.apk</code>.</p>
+                        </div>
+                    </div>
+                    <div class="install-step">
+                        <div class="install-icon">3</div>
+                        <div class="install-text">
+                            <h3>Abilita "Fonti Sconosciute" (se richiesto)</h3>
+                            <p>Se Android ti avvisa che l'installazione da questa sorgente è bloccata, tocca <strong>Impostazioni</strong> nel messaggio popup e attiva la spunta <strong>"Consenti da questa fonte"</strong> per il tuo browser (es. Chrome o Samsung Internet).</p>
+                        </div>
+                    </div>
+                    <div class="install-step">
+                        <div class="install-icon">4</div>
+                        <div class="install-text">
+                            <h3>Conferma l'Installazione</h3>
+                            <p>Torna indietro e premi <strong>"Installa"</strong>. L'app sarà pronta all'uso nel tuo menu applicazioni in pochissimi secondi!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="install-cta">
+                    <a href="PienoGiusto.apk" class="btn btn-primary btn-large" download>
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Scarica l'APK Ora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Domande Frequenti (FAQ)</h2>
+                <p>Risposte chiare alle domande più comuni su Pieno Giusto.</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Perché l'app non è sul Google Play Store?</h4>
+                    <p>Pieno Giusto è un progetto indipendente sviluppato per offrire un servizio gratuito, trasparente e privo di tracciamenti o pubblicità, distribuito direttamente in formato APK.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>L'installazione tramite APK è sicura?</h4>
+                    <p>Assolutamente sì! Il file APK proviene direttamente da questo sito ufficiale ed è firmato digitalmente. L'app richiede solo il permesso della Posizione per trovare i distributori attorno a te.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Da dove arrivano i prezzi dei carburanti?</h4>
+                    <p>I dati provengono dal flusso ufficiale Open Data MIMIT (Ministero delle Imprese e del Made in Italy), aggiornati quotidianamente dai distributori italiani, integrati con i portali ufficiali dei paesi europei confinanti.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Serve una connessione Internet per usarla?</h4>
+                    <p>Servono pochi kilobyte di connessione all'apertura dell'app per scaricare il listino prezzi aggiornato del giorno. Una volta scaricati i dati, le mappe e i calcoli funzionano in locale sul telefono.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="assets/app_icon.png" alt="Pieno Giusto Logo" class="footer-icon">
+                <span>Pieno Giusto</span>
+            </div>
+            <p class="footer-text">App Android indipendente per la trasparenza dei prezzi dei carburanti e il monitoraggio dei consumi.</p>
+            <div class="footer-copyright">
+                © 2026 Pieno Giusto. Dati carburanti: Open Data MIMIT (Ministero delle Imprese e del Made in Italy).
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
