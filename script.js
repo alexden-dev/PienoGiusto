@@ -33,3 +33,13 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(card);
     });
 });
+
+function copySatispayTag() {
+    const tag = '@adentex76';
+    navigator.clipboard.writeText(tag).then(() => {
+        alert('Tag Satispay ' + tag + ' copiato negli appunti!');
+    }).catch(err => {
+        console.error('Errore durante la copia:', err);
+    });
+}
+

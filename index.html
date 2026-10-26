@@ -24,7 +24,9 @@
                 <a href="#features">Caratteristiche</a>
                 <a href="#how-it-works">Come Funziona</a>
                 <a href="#installation">Installazione</a>
+                <a href="#donate">Sostieni l'App</a>
                 <a href="#faq">FAQ</a>
+                <a href="https://t.me/PienoGiusto" target="_blank" class="nav-telegram">Telegram 📢</a>
             </nav>
             <a href="PienoGiusto.apk" class="btn btn-primary nav-cta" download>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
@@ -50,8 +52,9 @@
                         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                         Scarica Pieno Giusto (APK)
                     </a>
-                    <a href="#installation" class="btn btn-secondary btn-large">
-                        Guida all'installazione
+                    <a href="https://t.me/PienoGiusto" target="_blank" rel="noopener" class="btn btn-telegram btn-large">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.69-.52.36-1 .53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.37-.49 1.02-.75 3.99-1.74 6.66-2.89 8.01-3.45 3.81-1.59 4.6-1.87 5.12-1.88.11 0 .37.03.54.18.14.12.18.28.2.45-.02.07-.02.21-.04.35z"/></svg>
+                        Canale Telegram
                     </a>
                 </div>
                 <div class="hero-specs">
@@ -242,6 +245,45 @@
                         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                         Scarica l'APK Ora
                     </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section id="donate" class="donate-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sostieni il Progetto <span class="gradient-text">Pieno Giusto</span> ☕</h2>
+                <p>Pieno Giusto è un'applicazione al 100% gratuita, indipendente e priva di pubblicità. Se ti è stata utile e vuoi offrire un caffè al creatore per sostenere lo sviluppo, puoi fare una donazione volontaria.</p>
+            </div>
+            <div class="donate-grid">
+                <!-- Satispay Card -->
+                <div class="donate-card">
+                    <div class="donate-card-header">
+                        <div class="donate-badge satispay-badge">Satispay</div>
+                        <h3>Donazione con Satispay</h3>
+                    </div>
+                    <p class="donate-desc">Puoi inviare un contributo libero inserendo il tag personalizzato nell'app Satispay:</p>
+                    <div class="satispay-tag-box">
+                        <div class="satispay-info">
+                            <span class="tag-label">Tag Satispay:</span>
+                            <strong class="tag-value" id="satispay-tag">@adentex76</strong>
+                        </div>
+                        <button class="btn btn-secondary btn-sm" onclick="copySatispayTag()">Copia Tag</button>
+                    </div>
+                </div>
+
+                <!-- PayPal Card -->
+                <div class="donate-card">
+                    <div class="donate-card-header">
+                        <div class="donate-badge paypal-badge">PayPal</div>
+                        <h3>Donazione con PayPal</h3>
+                    </div>
+                    <p class="donate-desc">Scansiona il QR Code con l'app PayPal o la fotocamera dello smartphone per inviare il tuo contributo:</p>
+                    <div class="qr-container">
+                        <img src="assets/paypal_qr.jpg" alt="PayPal QR Code" class="paypal-qr-img">
+                    </div>
                 </div>
             </div>
         </div>
